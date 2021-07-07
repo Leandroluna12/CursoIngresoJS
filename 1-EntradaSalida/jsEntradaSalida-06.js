@@ -5,14 +5,22 @@ mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
 
-	var numerouno = parseInt(document.getElementById("txtIdNumeroUno").value)
-	var numerodos =parseInt(document.getElementById("txtIdNumeroDos").value)
-	var suma = numerouno + numerodos;
+	var numerouno ;
+	var numerodos ;
+	var suma ;
+
+	numerouno = txtIdNumeroUno.value;
+	numerodos = txtIdNumeroDos.value;
+
+	numerouno = parseInt(numerouno);
+	numerodos = parseInt(numerodos);
+
+	suma = numerouno + numerodos;
+
+	alert("La suma de los numeros es:" + suma);
 
 
 
-
-	alert("La suma es: "+suma);
 }
 
 

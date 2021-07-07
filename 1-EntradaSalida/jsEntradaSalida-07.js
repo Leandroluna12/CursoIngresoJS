@@ -5,38 +5,81 @@ mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {	
-	var numerouno = parseInt(document.getElementById("txtIdNumeroUno").value)
-	var numerodos =parseInt(document.getElementById("txtIdNumeroDos").value)
-	var suma = numerouno + numerodos;
+	var numerouno ;
+	var numerodos ;
+	var suma ;
 
-	alert("La suma es :"+suma);
+	numerouno = txtIdNumeroUno.value;
+	numerodos = txtIdNumeroDos.value;
+
+	numerouno = parseInt(numerouno);
+	numerodos = parseInt(numerodos);
+
+	suma = numerouno + numerodos;
+
+	alert("el resultado es:" + suma);
+
+
 }
 
 function restar()
 {
-	var numerouno = parseInt(document.getElementById("txtIdNumeroUno").value)
-	var numerodos =parseInt(document.getElementById("txtIdNumeroDos").value)
-	var resta = numerouno - numerodos;
+	var numerouno ;
+	var numerodos ;
+	var resta ;
 
-	alert("La resta es : "+resta);
+	numerouno = txtIdNumeroUno.value;
+	numerodos = txtIdNumeroDos.value;
+
+	numerouno = parseInt(numerouno);
+	numerodos = parseInt(numerodos);
+
+	resta = numerouno - numerodos;
+
+	alert("el resultadoes:" + resta);
+
+
+
 }
 
 function multiplicar()
 { 
-	var numerouno = parseInt(document.getElementById("txtIdNumeroUno").value)
-	var numerodos =parseInt(document.getElementById("txtIdNumeroDos").value)
-	var multiplicar = numerouno * numerodos;
+	var numerouno ;
+	var numerodos ;
+	var multiplica ;
 
-	alert("La multiplicacion es : "+multiplicar);
+	numerouno = txtIdNumeroUno.value;
+	numerodos = txtIdNumeroDos.value;
+
+	numerouno = parseInt(numerouno);
+	numerodos = parseInt(numerodos);
+
+	multiplica = numerouno * numerodos;
+
+	alert("el resultado es:" + multiplica);
+
+
+
 }
 
 function dividir()
 {
-	var numerouno = parseInt(document.getElementById("txtIdNumeroUno").value)
-	var numerodos =parseInt(document.getElementById("txtIdNumeroDos").value)
-	var dividir = numerouno / numerodos;
+	var numerouno ;
+	var numerodos ;
+	var dividir ;
 
-	alert("La division es : "+dividir);
+	numerouno = txtIdNumeroUno.value;
+	numerodos = txtIdNumeroDos.value;
+
+	numerouno = parseFloat(numerouno);
+	numerodos = parseFloat(numerodos);
+
+	dividir = numerouno / numerodos;
+
+	alert("el resultado es:" + dividir);
+
+
+
 }
 
 

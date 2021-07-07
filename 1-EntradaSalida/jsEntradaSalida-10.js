@@ -9,7 +9,9 @@ function mostrarAumento()
 	var descuento;
 	var total;
 
-	importeingresado = parseFloat(document.getElementById("txtIdImporte").value);
+	importeingresado = txtIdImporte.value;
+	importeingresado = parseInt (importeingresado);
+	
 
 	descuento = importeingresado * 25 / 100;
 
