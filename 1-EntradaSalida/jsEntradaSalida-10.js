@@ -4,29 +4,26 @@ Transformarlo a entero (parseInt), luego
 mostrar el importe con un Descuento del 25 %
 en el cuadro de texto "RESULTADO"*/
 function mostrarAumento()
-{
-	var importeingresado;
-	var descuento;
-	var total;
 
-	importeingresado = txtIdImporte.value;
-	importeingresado = parseInt (importeingresado);
+{
+	var sueldo;
+	var resultado;
+	var descuento;
+
+	//datos de entrada ( sirven para traer info del ID)
+
+	sueldo = txtIdImporte.value;
+	sueldo = parseFloat(sueldo);
+	descuento = prompt("Ingrese el porcentaje de descuento");
+	descuento = parseFloat(descuento);
 	
 
-	descuento = importeingresado * 25 / 100;
+	resultado = (sueldo - (sueldo / 100 * descuento));
 
-
-	total = importeingresado - descuento ;
-
-	document.getElementById("txtIdResultado").value = total;
-
-
+	document.getElementById("txtIdResultado").value = (resultado);
 
 }
 
-
-
-
-
 // importe : txtIdImporte
- // resultado : txtIdImporte
+ // resultado : txtIdResultado
+ 
