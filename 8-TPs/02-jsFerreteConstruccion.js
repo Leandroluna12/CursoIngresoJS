@@ -27,8 +27,6 @@ function Rectangulo ()
 
 
 	alert("se necesitan "+final+" metros de alambre");
-
-
 }
 function Circulo () 
 {
@@ -46,8 +44,7 @@ function Circulo ()
 
 	cantidadAlambre = perimetro * 3;
 
-	alert("Se necesitan " + cantidadAlambre + " metros de alambre");
-	
+	alert("Se necesitan " + cantidadAlambre + " metros de alambre");	
 }
 function Materiales () 
 {
@@ -72,7 +69,6 @@ function Materiales ()
 
 	alert(" La cantidad necesaria de  bolsas de cemento es  " +cemento+ " y la cantidad necesaria de bolsas de cal es  " +cal);
 
-	
 }
 
 //txtIdLargo : ID largo largo

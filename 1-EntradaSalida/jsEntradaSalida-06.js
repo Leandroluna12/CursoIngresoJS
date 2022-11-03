@@ -5,6 +5,8 @@ mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
 
+	
+
 	var numerouno ;
 	var numerodos ;
 	var suma ;

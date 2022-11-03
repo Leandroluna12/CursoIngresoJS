@@ -22,7 +22,6 @@ function Sumar ()
 	sumaprecios = precioUno + precioDos + precioTres;
 
 	alert(" La suma de los productos es : "+ sumaprecios);
-
 }
 function Promedio () 
 {
@@ -44,8 +43,6 @@ function Promedio ()
 	
 
 	alert("El promedio de los productos es : "+ promedio);
-
-
 	
 }
 function PrecioFinal () 
@@ -72,16 +69,7 @@ function PrecioFinal ()
 	precioFinal = sumaprecios + iva;
 
 	alert("El precio final de los productos mas IVA es : "+ iva)
-
-
-
-
-
-
 }
-
-
-
 //precio uno : txtIdPrecioUno
 // precio dos : txtIdPrecioDos
 // precio tres : txtIdPrecioTres 
